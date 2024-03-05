@@ -1,0 +1,22 @@
+{
+  "listComprehension": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "[$body for $item in $items]"
+        ]
+      }
+    ],
+    "description": "",
+    "variables": {
+      "body": {},
+      "item": {},
+      "items": {}
+    }
+  }
+}

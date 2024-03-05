@@ -1,0 +1,116 @@
+{
+	"subclass": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"class ${1:ClassName}(${2:BaseClass}):",
+					"    def __init__(self, ${3:params}):",
+					"        super().__init__(${4:super_params})",
+					"        ${5:# TODO: Add subclass initialization code here}"
+				]
+			}
+		],
+		"description": "Creates a Python subclass with an initializer and a method."
+	},
+	"import": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"import ${1:module}"
+				]
+			}
+		],
+		"description": "Creates a module import statement."
+	},
+	"importFrom": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"from ${1:package} import ${2:module}"
+				]
+			}
+		],
+		"description": "Creates a module from import statement."
+	},
+	"importAs": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"import ${1:module} as ${2:alias}"
+				]
+			}
+		],
+		"description": "Creates an alias import statement"
+	},
+	"forLoop": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"for ${1:variable} in ${2:iterable}:",
+					"    ${3:# TODO: Add loop body}"
+				]
+			}
+		],
+		"description": "Creates a for loop iterating over an iterable."
+	},
+	"ifIfElseStatement": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"if ${1:condition}:",
+					"    ${2:# TODO: Add code to execute if condition is true}",
+					"elif ${3:another_condition}:",
+					"    ${4:# TODO: Add code to execute if the elif condition is true}",
+					"else:",
+					"    ${5:# TODO: Add code to execute if no conditions are true}"
+				]
+			}
+		],
+		"description": "Creates an if-elif-else statement structure."
+	},
+	"ternaryExpression": {
+		"definitions": [
+			{
+				"scope": {
+					"langIds": [
+						"python"
+					]
+				},
+				"body": [
+					"${1:result} = ${2:value_if_true} if ${3:condition} else ${4:value_if_false}"
+				]
+			}
+		],
+		"description": "Creates a ternary expression for conditional assignment."
+	}
+}

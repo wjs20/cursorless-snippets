@@ -1,0 +1,22 @@
+{
+  "jsonDump": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "with open('$file_name', 'w') as f:",
+          "\tjson.dump($variable, f)"
+        ]
+      }
+    ],
+    "description": "",
+    "variables": {
+      "file_name": {},
+      "variable": {}
+    }
+  }
+}

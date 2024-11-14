@@ -1,0 +1,22 @@
+{
+  "jsonLoad": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "with open('$file_name') as f:",
+          "\t$variable = json.load(f)"
+        ]
+      }
+    ],
+    "description": "",
+    "variables": {
+      "file_name": {},
+      "variable": {}
+    }
+  }
+}

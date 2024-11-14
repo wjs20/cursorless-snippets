@@ -1,0 +1,26 @@
+{
+  "flaskRoute": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "@app.route(\"/$route\", methods=[\"$method1\"])",
+          "def $function_name():",
+          "    $body"
+        ]
+      }
+    ],
+    "description": "Flask route with customizable path and HTTP methods",
+    "variables": {
+      "route": {},
+      "method1": {},
+      "method2": {},
+      "function_name": {},
+      "body": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "matchCase": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "match $value:",
+          "    case $pattern1:",
+          "        $action1",
+          "    case $pattern2:",
+          "        $action2",
+          "    case _:",
+          "        $default_action"
+        ]
+      }
+    ],
+    "description": "Python match-case statement with patterns and actions",
+    "variables": {
+      "value": {},
+      "pattern1": {},
+      "action1": {},
+      "pattern2": {},
+      "action2": {},
+      "default_action": {}
+    }
+  }
+}
